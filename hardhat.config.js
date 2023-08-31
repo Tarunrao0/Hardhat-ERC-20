@@ -59,7 +59,7 @@ module.exports = {
             default: 0, 
             1: 0, 
         },
-        player: {
+        user1: {
             default: 1,
         },
     },
