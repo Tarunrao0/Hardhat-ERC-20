@@ -1,6 +1,6 @@
 # About this project
 ERC-20 tokens are a type of cryptocurrency built on the Ethereum Blockchain. They are digital tokens that can represent anything from shares in a company to virtual assets in a game.
-Using this contract the user can transfer erc20 tokens and mint or burn tokens if they meet the allowance
+Using this contract the user can transfer ERC-20 tokens and mint or burn tokens if they meet the allowance
 
 # How to run this program
 
