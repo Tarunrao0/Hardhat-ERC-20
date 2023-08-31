@@ -3,12 +3,12 @@ const {
   developmentChains,
   INITIAL_SUPPLY,
 } = require("../helper-hardhat-config")
-const { verify } = require("../helper-functions")
+const { verify } = require("../utils/verify")
 
 module.exports = async ({ getNamedAccounts, deployments }) => {
   const { deploy, log } = deployments
   const { deployer } = await getNamedAccounts()
-  const erc20 = await deploy("erc20", {
+  const erc20 = await deploy("OurToken", {
     from: deployer,
     args: [INITIAL_SUPPLY],
     log: true,
